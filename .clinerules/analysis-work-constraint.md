@@ -23,7 +23,7 @@ This rule applies to:
 ## Permitted Locations
 
 - `analyze/` (root analysis directory)
-- `analyze/hanging-terminals/` (current analysis subdirectory)
+- `analyze/server-client-test/` (current analysis subdirectory)
 - Any future subdirectories under `analyze/`
 
 ## Prohibited Locations
@@ -48,7 +48,7 @@ This constraint prevents accidental modifications to the production codebase dur
 ## Example Usage
 
 ✅ **Allowed:**
-- `analyze/hanging-terminals/test-script.sh`
+- `analyze/server-client-test/test-script.sh`
 - `analyze/performance-tests/benchmark.js`
 - `analyze/documentation/findings.md`
 
